@@ -1,6 +1,3 @@
 def call() {
-    println("mvn -B -DskipTests clean package")
+    println("mvn -B -Dstyle.color=always -DskipTests clean package")
 }
-// def call() {
-//   println("./gradlew clean build")
-// }
