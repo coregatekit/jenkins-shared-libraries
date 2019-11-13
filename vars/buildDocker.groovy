@@ -1,3 +1,3 @@
 def call(tag=null) {
-    println("docker build -t ${tag}")
+    sh "docker build -t ${tag} ."
 }
