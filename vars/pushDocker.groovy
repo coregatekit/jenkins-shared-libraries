@@ -1,4 +1,4 @@
-def call(tag=null) {
+def call() {
     sh "steps {
         script {
             withDockerRegistry(
