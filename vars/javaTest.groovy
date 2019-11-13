@@ -1,3 +1,3 @@
 def call() {
-    println("mvn -Dstyle.color=always test")
+    println("sh mvn -Dstyle.color=always test")
 }
